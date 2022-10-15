@@ -39,7 +39,7 @@ const MobileLinks = () => {
           <BsFillPersonLinesFill size={35} />
         </>
       ),
-      href: "https://drive.google.com/file/d/1yHYasA5T2f10VBKGxALQGnveoqZFBAe_/view?usp=sharing",
+      href: "https://drive.google.com/file/d/1L1Vya3Nxp6TeeeVE3zz_D7Aick3n1lQZ/view?usp=sharing",
     },
   ];
   return (
@@ -49,7 +49,7 @@ const MobileLinks = () => {
         {links.map(({ id, child, href }) => (
           <li
             key={id}
-            className="mx-3  hover:scale-105 duration-300 py-2 rounded-lg "
+            className="mx-3 hover:scale-105 duration-300 py-2 rounded-lg "
           >
             <a target="_blank" rel="noreferrer" href={href}>
               {child}
